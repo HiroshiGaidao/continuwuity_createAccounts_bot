@@ -1,0 +1,622 @@
+2026-03-29 01:02:56 - MatrixRegBot - INFO - <module>:842 - ==================================================
+2026-03-29 01:02:56 - MatrixRegBot - INFO - <module>:843 - 🤖 Запуск бота регистрации continuwuity...
+2026-03-29 01:02:56 - MatrixRegBot - INFO - <module>:844 - ==================================================
+2026-03-29 01:02:56 - MatrixRegBot - INFO - <module>:846 - 📋 Конфигурация:
+2026-03-29 01:02:56 - MatrixRegBot - INFO - <module>:849 - 🔐 TG_BOT_TOKEN: [СКРЫТО]
+2026-03-29 01:02:56 - MatrixRegBot - INFO - <module>:851 - ⚙️ ADMIN_CHAT_ID: 1524172810
+2026-03-29 01:02:56 - MatrixRegBot - INFO - <module>:851 - ⚙️ MATRIX_SERVER_URL: https://cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 01:02:56 - MatrixRegBot - INFO - <module>:851 - ⚙️ MATRIX_DOMAIN: cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 01:02:56 - MatrixRegBot - INFO - <module>:851 - ⚙️ MATRIX_BOT_USER: regbot
+2026-03-29 01:02:56 - MatrixRegBot - INFO - <module>:849 - 🔐 MATRIX_BOT_PASSWORD: [СКРЫТО]
+2026-03-29 01:02:56 - MatrixRegBot - INFO - <module>:851 - ⚙️ MATRIX_ADMIN_ROOM_ID: !AN4C77yYxIkfpNKzwl:cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 01:02:56 - MatrixRegBot - INFO - <module>:851 - ⚙️ MATRIX_STORE_PATH: /app/matrix_store
+2026-03-29 01:02:56 - MatrixRegBot - INFO - <module>:851 - ⚙️ DB_PATH: /app/data/bot_database.db
+2026-03-29 01:02:56 - MatrixRegBot - INFO - <module>:851 - ⚙️ LOG_PATH: /app/logs
+2026-03-29 01:02:56 - MatrixRegBot - INFO - <module>:851 - ⚙️ LOG_LEVEL: INFO
+2026-03-29 01:02:56 - MatrixRegBot - INFO - <module>:851 - ⚙️ LOG_MAX_BYTES: 10485760
+2026-03-29 01:02:56 - MatrixRegBot - INFO - <module>:851 - ⚙️ LOG_BACKUP_COUNT: 7
+2026-03-29 01:02:56 - MatrixRegBot - INFO - start_matrix_background:828 - 🔄 Запуск Matrix клиента в фоновом потоке...
+2026-03-29 01:02:56 - MatrixRegBot - INFO - init_matrix_client:145 - ==================================================
+2026-03-29 01:02:56 - MatrixRegBot - INFO - start_matrix_background:839 - ✅ Фоновый поток запущен
+2026-03-29 01:02:56 - MatrixRegBot - INFO - init_matrix_client:146 - 🔄 Инициализация Matrix клиента...
+2026-03-29 01:02:56 - MatrixRegBot - INFO - <module>:859 - ⏳ Ожидание инициализации Matrix (3 сек)...
+2026-03-29 01:02:56 - MatrixRegBot - INFO - init_matrix_client:147 - 📍 Server: https://cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 01:02:56 - MatrixRegBot - INFO - init_matrix_client:148 - 👤 User: regbot
+2026-03-29 01:02:56 - MatrixRegBot - INFO - init_matrix_client:149 - 🏠 Admin Room: !AN4C77yYxIkfpNKzwl:cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 01:02:56 - MatrixRegBot - INFO - init_matrix_client:153 - ✅ Matrix event loop сохранён
+2026-03-29 01:02:56 - MatrixRegBot - INFO - init_matrix_client:160 - ✅ AsyncClient создан
+2026-03-29 01:02:56 - MatrixRegBot - INFO - init_matrix_client:166 - ✅ Event callback зарегистрирован
+2026-03-29 01:02:56 - MatrixRegBot - INFO - init_matrix_client:168 - 🔑 Выполняется вход в Matrix...
+2026-03-29 01:02:56 - MatrixRegBot - INFO - init_matrix_client:172 - ✅ Matrix bot logged in успешно!
+2026-03-29 01:02:56 - MatrixRegBot - INFO - init_matrix_client:173 - 🆔 User ID: @regbot:cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 01:02:59 - MatrixRegBot - INFO - <module>:862 - 📱 Запуск Telegram bot polling...
+2026-03-29 01:03:17 - MatrixRegBot - INFO - admin_panel:474 - 📱 Команда /admin от 1524172810
+2026-03-29 01:03:17 - MatrixRegBot - INFO - admin_panel:505 - ✅ Админ-панель отправлена
+2026-03-29 01:03:21 - MatrixRegBot - INFO - admin_callback:509 - 📱 Admin callback: admin_users
+2026-03-29 01:03:32 - MatrixRegBot - INFO - admin_callback:509 - 📱 Admin callback: admin_user_1524172810
+2026-03-29 01:03:41 - MatrixRegBot - INFO - admin_panel:474 - 📱 Команда /admin от 1524172810
+2026-03-29 01:03:45 - MatrixRegBot - INFO - admin_panel:505 - ✅ Админ-панель отправлена
+2026-03-29 01:03:50 - MatrixRegBot - INFO - admin_callback:509 - 📱 Admin callback: admin_users
+2026-03-29 01:03:52 - MatrixRegBot - INFO - admin_callback:509 - 📱 Admin callback: admin_user_1524172810
+2026-03-29 01:04:01 - MatrixRegBot - INFO - admin_panel:474 - 📱 Команда /admin от 1524172810
+2026-03-29 01:04:01 - MatrixRegBot - INFO - admin_panel:505 - ✅ Админ-панель отправлена
+2026-03-29 01:04:10 - MatrixRegBot - INFO - admin_callback:509 - 📱 Admin callback: admin_stats
+2026-03-29 01:04:18 - MatrixRegBot - INFO - admin_panel:474 - 📱 Команда /admin от 1524172810
+2026-03-29 01:04:23 - MatrixRegBot - INFO - admin_panel:505 - ✅ Админ-панель отправлена
+2026-03-29 01:04:24 - MatrixRegBot - INFO - admin_callback:509 - 📱 Admin callback: admin_stats
+2026-03-29 01:04:27 - MatrixRegBot - INFO - admin_panel:474 - 📱 Команда /admin от 1524172810
+2026-03-29 01:04:27 - MatrixRegBot - INFO - admin_panel:505 - ✅ Админ-панель отправлена
+2026-03-29 01:04:35 - MatrixRegBot - INFO - admin_callback:509 - 📱 Admin callback: admin_users
+2026-03-29 01:04:44 - MatrixRegBot - INFO - admin_callback:509 - 📱 Admin callback: admin_user_1524172810
+2026-03-29 01:05:29 - MatrixRegBot - INFO - admin_panel:474 - 📱 Команда /admin от 1524172810
+2026-03-29 01:05:33 - MatrixRegBot - INFO - admin_panel:505 - ✅ Админ-панель отправлена
+2026-03-29 01:05:56 - MatrixRegBot - INFO - matrix_sync_loop:192 - 📊 Sync статистика: 10 циклов
+2026-03-29 01:06:20 - MatrixRegBot - INFO - start_command:273 - 📱 Команда /start от 1524172810
+2026-03-29 01:06:20 - MatrixRegBot - INFO - start_command:279 - ✅ Пользователь 1524172810 добавлен/обновлён в БД
+2026-03-29 01:06:23 - MatrixRegBot - INFO - help_callback:430 - 📱 Callback help от 1524172810
+2026-03-29 01:06:41 - MatrixRegBot - INFO - my_accounts_command:378 - 📱 Команда /myaccounts от 1524172810
+2026-03-29 01:06:41 - MatrixRegBot - INFO - my_accounts_command:385 - 📊 Найдено аккаунтов: 3
+2026-03-29 01:09:26 - MatrixRegBot - INFO - matrix_sync_loop:192 - 📊 Sync статистика: 20 циклов
+2026-03-29 01:12:56 - MatrixRegBot - INFO - matrix_sync_loop:192 - 📊 Sync статистика: 30 циклов
+2026-03-29 01:15:56 - MatrixRegBot - INFO - matrix_sync_loop:192 - 📊 Sync статистика: 40 циклов
+2026-03-29 01:19:26 - MatrixRegBot - INFO - matrix_sync_loop:192 - 📊 Sync статистика: 50 циклов
+2026-03-29 01:22:56 - MatrixRegBot - INFO - matrix_sync_loop:192 - 📊 Sync статистика: 60 циклов
+2026-03-29 01:25:56 - MatrixRegBot - INFO - matrix_sync_loop:192 - 📊 Sync статистика: 70 циклов
+2026-03-29 01:29:26 - MatrixRegBot - INFO - matrix_sync_loop:192 - 📊 Sync статистика: 80 циклов
+2026-03-29 01:30:59 - MatrixRegBot - INFO - <module>:899 - ==================================================
+2026-03-29 01:30:59 - MatrixRegBot - INFO - <module>:900 - 🤖 Запуск бота...
+2026-03-29 01:30:59 - MatrixRegBot - INFO - <module>:901 - ==================================================
+2026-03-29 01:30:59 - MatrixRegBot - INFO - <module>:905 - 🔐 TG_BOT_TOKEN: [СКРЫТО]
+2026-03-29 01:30:59 - MatrixRegBot - INFO - <module>:907 - ⚙️ ADMIN_CHAT_ID: 1524172810
+2026-03-29 01:30:59 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_SERVER_URL: https://cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 01:30:59 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_DOMAIN: cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 01:30:59 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_BOT_USER: regbot
+2026-03-29 01:30:59 - MatrixRegBot - INFO - <module>:905 - 🔐 MATRIX_BOT_PASSWORD: [СКРЫТО]
+2026-03-29 01:30:59 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_ADMIN_ROOM_ID: !AN4C77yYxIkfpNKzwl:cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 01:30:59 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_STORE_PATH: /app/matrix_store
+2026-03-29 01:30:59 - MatrixRegBot - INFO - <module>:907 - ⚙️ DB_PATH: /app/data/bot_database.db
+2026-03-29 01:30:59 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_PATH: /app/logs
+2026-03-29 01:30:59 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_LEVEL: INFO
+2026-03-29 01:30:59 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_MAX_BYTES: 10485760
+2026-03-29 01:30:59 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_BACKUP_COUNT: 7
+2026-03-29 01:30:59 - MatrixRegBot - INFO - start_matrix_background:886 - 🔄 Запуск Matrix клиента...
+2026-03-29 01:30:59 - MatrixRegBot - INFO - init_matrix_client:180 - 🔄 Инициализация Matrix клиента...
+2026-03-29 01:31:00 - MatrixRegBot - INFO - init_matrix_client:198 - ✅ Matrix bot logged in: @regbot:cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 01:31:02 - MatrixRegBot - INFO - <module>:917 - 📱 Telegram bot polling started...
+2026-03-29 01:31:32 - MatrixRegBot - INFO - start_command:270 - 📱 /start от 1524172810
+2026-03-29 01:31:46 - MatrixRegBot - INFO - menu_resetpwd_callback:476 - 📱 Callback: menu_resetpwd от 1524172810
+2026-03-29 01:31:49 - MatrixRegBot - INFO - menu_main_callback:393 - 📱 Callback: menu_main от 1524172810
+2026-03-29 01:31:50 - MatrixRegBot - INFO - menu_accounts_callback:446 - 📱 Callback: menu_accounts от 1524172810
+2026-03-29 01:31:54 - MatrixRegBot - INFO - reset_password_callback:503 - 📱 Callback: resetpwd от 1524172810
+2026-03-29 01:31:54 - MatrixRegBot - INFO - reset_password_for_user:514 - 🔑 Сброс пароля: 22222222
+2026-03-29 01:31:54 - MatrixRegBot - INFO - send_admin_command_async:221 - 📤 Команда Matrix: !admin users password @22222222:cloud.matrix.hiroshi-gaidao.ru 01WvL&kB4!iz5$uI
+2026-03-29 01:31:54 - MatrixRegBot - INFO - send_admin_command_async:236 - ✅ Отправлено: $uQNV3VpSAW2vvDkFCDWSrQ1ZmPKVljpNBobHUJ7Plwg
+2026-03-29 01:32:09 - MatrixRegBot - INFO - menu_main_callback:393 - 📱 Callback: menu_main от 1524172810
+2026-03-29 01:32:48 - MatrixRegBot - INFO - admin_panel:592 - 📱 /admin от 1524172810
+2026-03-29 01:33:15 - MatrixRegBot - INFO - send_admin_command_async:221 - 📤 Команда Matrix: !admin users deactivate @qqqq:cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 01:33:15 - MatrixRegBot - INFO - send_admin_command_async:236 - ✅ Отправлено: $dqL18AUXg7Jr_jhqHxiT-y_Tb09CxzpRUktfLJcCdYU
+2026-03-29 01:33:20 - MatrixRegBot - INFO - send_admin_command_async:221 - 📤 Команда Matrix: !admin users deactivate @22222222:cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 01:33:20 - MatrixRegBot - INFO - send_admin_command_async:236 - ✅ Отправлено: $GS_1ZBjrE9Hx3Ccq-A3XCpUtPJtXQdLRcmGGvBzxrU8
+2026-03-29 01:33:20 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 10 циклов
+2026-03-29 01:33:23 - MatrixRegBot - INFO - send_admin_command_async:221 - 📤 Команда Matrix: !admin users deactivate @333333:cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 01:33:23 - MatrixRegBot - INFO - send_admin_command_async:236 - ✅ Отправлено: $13c0NNwA-Dkl9G1JtL2_pPZV5taVlAFycmTzhoZin3w
+2026-03-29 01:34:52 - MatrixRegBot - INFO - menu_register_callback:421 - 📱 Callback: menu_register от 1524172810
+2026-03-29 01:35:23 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 20 циклов
+2026-03-29 01:37:48 - MatrixRegBot - INFO - <module>:899 - ==================================================
+2026-03-29 01:37:48 - MatrixRegBot - INFO - <module>:900 - 🤖 Запуск бота...
+2026-03-29 01:37:48 - MatrixRegBot - INFO - <module>:901 - ==================================================
+2026-03-29 01:37:48 - MatrixRegBot - INFO - <module>:905 - 🔐 TG_BOT_TOKEN: [СКРЫТО]
+2026-03-29 01:37:48 - MatrixRegBot - INFO - <module>:907 - ⚙️ ADMIN_CHAT_ID: 1524172810
+2026-03-29 01:37:48 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_SERVER_URL: https://cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 01:37:48 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_DOMAIN: cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 01:37:48 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_BOT_USER: regbot
+2026-03-29 01:37:48 - MatrixRegBot - INFO - <module>:905 - 🔐 MATRIX_BOT_PASSWORD: [СКРЫТО]
+2026-03-29 01:37:48 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_ADMIN_ROOM_ID: !AN4C77yYxIkfpNKzwl:cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 01:37:48 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_STORE_PATH: /app/matrix_store
+2026-03-29 01:37:48 - MatrixRegBot - INFO - <module>:907 - ⚙️ DB_PATH: /app/data/bot_database.db
+2026-03-29 01:37:48 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_PATH: /app/logs
+2026-03-29 01:37:48 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_LEVEL: INFO
+2026-03-29 01:37:48 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_MAX_BYTES: 10485760
+2026-03-29 01:37:48 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_BACKUP_COUNT: 7
+2026-03-29 01:37:48 - MatrixRegBot - INFO - start_matrix_background:886 - 🔄 Запуск Matrix клиента...
+2026-03-29 01:37:48 - MatrixRegBot - INFO - init_matrix_client:180 - 🔄 Инициализация Matrix клиента...
+2026-03-29 01:37:48 - MatrixRegBot - INFO - init_matrix_client:198 - ✅ Matrix bot logged in: @regbot:cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 01:37:51 - MatrixRegBot - INFO - <module>:917 - 📱 Telegram bot polling started...
+2026-03-29 01:38:09 - MatrixRegBot - INFO - start_command:270 - 📱 /start от 1524172810
+2026-03-29 01:38:12 - MatrixRegBot - INFO - menu_register_callback:421 - 📱 Callback: menu_register от 1524172810
+2026-03-29 01:38:20 - MatrixRegBot - INFO - handle_username:536 - 📱 Логин от 1524172810: swaga
+2026-03-29 01:38:27 - MatrixRegBot - INFO - registration_callback:825 - 📱 Registration: approve_1524172810_swaga
+2026-03-29 01:38:27 - MatrixRegBot - INFO - send_admin_command_async:221 - 📤 Команда Matrix: !admin users create @swaga:cloud.matrix.hiroshi-gaidao.ru Ucn6ILqDe1O*CDgN
+2026-03-29 01:38:27 - MatrixRegBot - INFO - send_admin_command_async:236 - ✅ Отправлено: $pOU6UUFlFZvxZmYGrWAs_tA_RpYBUuTLZzE-CPVF4GY
+2026-03-29 01:39:02 - MatrixRegBot - INFO - start_command:270 - 📱 /start от 1524172810
+2026-03-29 01:39:04 - MatrixRegBot - INFO - menu_register_callback:421 - 📱 Callback: menu_register от 1524172810
+2026-03-29 01:39:09 - MatrixRegBot - INFO - handle_username:536 - 📱 Логин от 1524172810: qwertyy
+2026-03-29 01:40:20 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 10 циклов
+2026-03-29 01:43:50 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 20 циклов
+2026-03-29 01:45:33 - MatrixRegBot - INFO - start_command:270 - 📱 /start от 789320943
+2026-03-29 01:45:37 - MatrixRegBot - INFO - menu_accounts_callback:446 - 📱 Callback: menu_accounts от 789320943
+2026-03-29 01:45:39 - MatrixRegBot - INFO - menu_main_callback:393 - 📱 Callback: menu_main от 789320943
+2026-03-29 01:45:41 - MatrixRegBot - INFO - menu_help_callback:407 - 📱 Callback: menu_help от 789320943
+2026-03-29 01:45:53 - MatrixRegBot - INFO - menu_main_callback:393 - 📱 Callback: menu_main от 789320943
+2026-03-29 01:45:55 - MatrixRegBot - INFO - menu_register_callback:421 - 📱 Callback: menu_register от 789320943
+2026-03-29 01:46:05 - MatrixRegBot - INFO - handle_username:536 - 📱 Логин от 789320943: lalka
+2026-03-29 01:46:17 - MatrixRegBot - INFO - registration_callback:825 - 📱 Registration: approve_789320943_lalka
+2026-03-29 01:46:17 - MatrixRegBot - INFO - send_admin_command_async:221 - 📤 Команда Matrix: !admin users create @lalka:cloud.matrix.hiroshi-gaidao.ru #bcQygdyc*DaSuhZ
+2026-03-29 01:46:17 - MatrixRegBot - INFO - send_admin_command_async:236 - ✅ Отправлено: $Eqpw2JV1PdpU1r19MDY66_dzJYctdRZVSOY80jc9jg8
+2026-03-29 01:46:47 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 30 циклов
+2026-03-29 01:50:17 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 40 циклов
+2026-03-29 01:50:57 - MatrixRegBot - INFO - admin_panel:592 - 📱 /admin от 1524172810
+2026-03-29 01:53:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 50 циклов
+2026-03-29 01:56:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 60 циклов
+2026-03-29 01:57:46 - MatrixRegBot - INFO - my_accounts_command:327 - 📱 /myaccounts от 1524172810
+2026-03-29 02:00:03 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 70 циклов
+2026-03-29 02:03:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 80 циклов
+2026-03-29 02:06:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 90 циклов
+2026-03-29 02:10:03 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 100 циклов
+2026-03-29 02:13:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 110 циклов
+2026-03-29 02:16:34 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 120 циклов
+2026-03-29 02:20:04 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 130 циклов
+2026-03-29 02:20:37 - MatrixRegBot - INFO - menu_main_callback:393 - 📱 Callback: menu_main от 1524172810
+2026-03-29 02:20:39 - MatrixRegBot - INFO - menu_accounts_callback:446 - 📱 Callback: menu_accounts от 1524172810
+2026-03-29 02:20:41 - MatrixRegBot - INFO - menu_main_callback:393 - 📱 Callback: menu_main от 1524172810
+2026-03-29 02:20:42 - MatrixRegBot - INFO - menu_accounts_callback:446 - 📱 Callback: menu_accounts от 1524172810
+2026-03-29 02:20:47 - MatrixRegBot - INFO - menu_main_callback:393 - 📱 Callback: menu_main от 1524172810
+2026-03-29 02:21:31 - MatrixRegBot - INFO - menu_accounts_callback:446 - 📱 Callback: menu_accounts от 1524172810
+2026-03-29 02:22:26 - MatrixRegBot - INFO - menu_main_callback:393 - 📱 Callback: menu_main от 1524172810
+2026-03-29 02:23:34 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 140 циклов
+2026-03-29 02:24:00 - MatrixRegBot - INFO - <module>:899 - ==================================================
+2026-03-29 02:24:00 - MatrixRegBot - INFO - <module>:900 - 🤖 Запуск бота...
+2026-03-29 02:24:00 - MatrixRegBot - INFO - <module>:901 - ==================================================
+2026-03-29 02:24:00 - MatrixRegBot - INFO - <module>:905 - 🔐 TG_BOT_TOKEN: [СКРЫТО]
+2026-03-29 02:24:00 - MatrixRegBot - INFO - <module>:907 - ⚙️ ADMIN_CHAT_ID: 1524172810
+2026-03-29 02:24:00 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_SERVER_URL: https://cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 02:24:00 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_DOMAIN: cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 02:24:00 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_BOT_USER: regbot
+2026-03-29 02:24:00 - MatrixRegBot - INFO - <module>:905 - 🔐 MATRIX_BOT_PASSWORD: [СКРЫТО]
+2026-03-29 02:24:00 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_ADMIN_ROOM_ID: !AN4C77yYxIkfpNKzwl:cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 02:24:00 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_STORE_PATH: /app/matrix_store
+2026-03-29 02:24:00 - MatrixRegBot - INFO - <module>:907 - ⚙️ DB_PATH: /app/data/bot_database.db
+2026-03-29 02:24:00 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_PATH: /app/logs
+2026-03-29 02:24:00 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_LEVEL: INFO
+2026-03-29 02:24:00 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_MAX_BYTES: 10485760
+2026-03-29 02:24:00 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_BACKUP_COUNT: 7
+2026-03-29 02:24:00 - MatrixRegBot - INFO - start_matrix_background:886 - 🔄 Запуск Matrix клиента...
+2026-03-29 02:24:00 - MatrixRegBot - INFO - init_matrix_client:180 - 🔄 Инициализация Matrix клиента...
+2026-03-29 02:24:01 - MatrixRegBot - INFO - init_matrix_client:198 - ✅ Matrix bot logged in: @regbot:cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 02:24:03 - MatrixRegBot - INFO - <module>:917 - 📱 Telegram bot polling started...
+2026-03-29 02:27:01 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 10 циклов
+2026-03-29 02:30:31 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 20 циклов
+2026-03-29 02:34:01 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 30 циклов
+2026-03-29 02:37:01 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 40 циклов
+2026-03-29 02:40:31 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 50 циклов
+2026-03-29 02:44:01 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 60 циклов
+2026-03-29 02:47:01 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 70 циклов
+2026-03-29 02:50:31 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 80 циклов
+2026-03-29 02:54:01 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 90 циклов
+2026-03-29 02:57:01 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 100 циклов
+2026-03-29 03:00:31 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 110 циклов
+2026-03-29 03:04:01 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 120 циклов
+2026-03-29 03:07:01 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 130 циклов
+2026-03-29 03:10:31 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 140 циклов
+2026-03-29 03:14:01 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 150 циклов
+2026-03-29 03:17:01 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 160 циклов
+2026-03-29 03:18:49 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 170 циклов
+2026-03-29 03:20:51 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 180 циклов
+2026-03-29 03:22:26 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 190 циклов
+2026-03-29 03:23:00 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 200 циклов
+2026-03-29 03:23:10 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 210 циклов
+2026-03-29 03:23:49 - MatrixRegBot - INFO - admin_panel:592 - 📱 /admin от 1524172810
+2026-03-29 03:23:56 - MatrixRegBot - INFO - send_admin_command_async:221 - 📤 Команда Matrix: !admin users deactivate @swaga:cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 03:23:56 - MatrixRegBot - INFO - send_admin_command_async:236 - ✅ Отправлено: $KO8bQwW4ncPex5NI5pG-qc86PogWd-X2La2-Qt7Omlk
+2026-03-29 03:24:02 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 220 циклов
+2026-03-29 03:27:32 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 230 циклов
+2026-03-29 03:31:02 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 240 циклов
+2026-03-29 03:34:02 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 250 циклов
+2026-03-29 03:37:32 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 260 циклов
+2026-03-29 03:41:02 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 270 циклов
+2026-03-29 03:44:02 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 280 циклов
+2026-03-29 03:47:32 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 290 циклов
+2026-03-29 03:51:02 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 300 циклов
+2026-03-29 03:54:02 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 310 циклов
+2026-03-29 03:57:32 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 320 циклов
+2026-03-29 04:01:02 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 330 циклов
+2026-03-29 04:04:02 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 340 циклов
+2026-03-29 04:07:32 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 350 циклов
+2026-03-29 04:11:02 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 360 циклов
+2026-03-29 04:14:02 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 370 циклов
+2026-03-29 04:17:32 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 380 циклов
+2026-03-29 04:21:02 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 390 циклов
+2026-03-29 04:24:03 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 400 циклов
+2026-03-29 04:27:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 410 циклов
+2026-03-29 04:31:03 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 420 циклов
+2026-03-29 04:34:03 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 430 циклов
+2026-03-29 04:37:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 440 циклов
+2026-03-29 04:41:03 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 450 циклов
+2026-03-29 04:44:03 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 460 циклов
+2026-03-29 04:47:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 470 циклов
+2026-03-29 04:51:03 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 480 циклов
+2026-03-29 04:54:03 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 490 циклов
+2026-03-29 04:57:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 500 циклов
+2026-03-29 05:01:03 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 510 циклов
+2026-03-29 05:04:03 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 520 циклов
+2026-03-29 05:07:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 530 циклов
+2026-03-29 05:11:03 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 540 циклов
+2026-03-29 05:14:03 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 550 циклов
+2026-03-29 05:17:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 560 циклов
+2026-03-29 05:21:03 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 570 циклов
+2026-03-29 05:24:04 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 580 циклов
+2026-03-29 05:27:34 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 590 циклов
+2026-03-29 05:31:04 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 600 циклов
+2026-03-29 05:34:04 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 610 циклов
+2026-03-29 05:37:34 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 620 циклов
+2026-03-29 05:41:04 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 630 циклов
+2026-03-29 05:44:04 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 640 циклов
+2026-03-29 05:47:34 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 650 циклов
+2026-03-29 05:51:04 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 660 циклов
+2026-03-29 05:54:04 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 670 циклов
+2026-03-29 05:57:34 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 680 циклов
+2026-03-29 06:01:04 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 690 циклов
+2026-03-29 06:04:04 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 700 циклов
+2026-03-29 06:07:34 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 710 циклов
+2026-03-29 06:11:04 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 720 циклов
+2026-03-29 06:14:04 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 730 циклов
+2026-03-29 06:17:34 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 740 циклов
+2026-03-29 06:21:04 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 750 циклов
+2026-03-29 06:24:05 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 760 циклов
+2026-03-29 06:27:35 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 770 циклов
+2026-03-29 06:31:05 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 780 циклов
+2026-03-29 06:34:05 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 790 циклов
+2026-03-29 06:37:35 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 800 циклов
+2026-03-29 06:41:05 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 810 циклов
+2026-03-29 06:44:05 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 820 циклов
+2026-03-29 06:47:35 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 830 циклов
+2026-03-29 06:51:05 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 840 циклов
+2026-03-29 06:54:05 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 850 циклов
+2026-03-29 06:57:35 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 860 циклов
+2026-03-29 07:01:05 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 870 циклов
+2026-03-29 07:04:05 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 880 циклов
+2026-03-29 07:07:35 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 890 циклов
+2026-03-29 07:11:05 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 900 циклов
+2026-03-29 07:14:05 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 910 циклов
+2026-03-29 07:17:35 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 920 циклов
+2026-03-29 07:21:05 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 930 циклов
+2026-03-29 07:24:06 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 940 циклов
+2026-03-29 07:27:36 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 950 циклов
+2026-03-29 07:31:06 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 960 циклов
+2026-03-29 07:34:06 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 970 циклов
+2026-03-29 07:37:36 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 980 циклов
+2026-03-29 07:41:06 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 990 циклов
+2026-03-29 07:44:06 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1000 циклов
+2026-03-29 07:47:36 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1010 циклов
+2026-03-29 07:51:06 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1020 циклов
+2026-03-29 07:54:06 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1030 циклов
+2026-03-29 07:57:36 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1040 циклов
+2026-03-29 08:01:06 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1050 циклов
+2026-03-29 08:04:06 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1060 циклов
+2026-03-29 08:07:36 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1070 циклов
+2026-03-29 08:11:06 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1080 циклов
+2026-03-29 08:14:06 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1090 циклов
+2026-03-29 08:17:36 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1100 циклов
+2026-03-29 08:21:06 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1110 циклов
+2026-03-29 08:24:07 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1120 циклов
+2026-03-29 08:27:37 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1130 циклов
+2026-03-29 08:31:07 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1140 циклов
+2026-03-29 08:34:07 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1150 циклов
+2026-03-29 08:37:37 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1160 циклов
+2026-03-29 08:41:07 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1170 циклов
+2026-03-29 08:44:07 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1180 циклов
+2026-03-29 08:47:37 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1190 циклов
+2026-03-29 08:51:07 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1200 циклов
+2026-03-29 08:54:07 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1210 циклов
+2026-03-29 08:57:37 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1220 циклов
+2026-03-29 09:01:07 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1230 циклов
+2026-03-29 09:04:07 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1240 циклов
+2026-03-29 09:07:37 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1250 циклов
+2026-03-29 09:11:07 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1260 циклов
+2026-03-29 09:14:07 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1270 циклов
+2026-03-29 09:17:37 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1280 циклов
+2026-03-29 09:21:08 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1290 циклов
+2026-03-29 09:24:08 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1300 циклов
+2026-03-29 09:27:38 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1310 циклов
+2026-03-29 09:31:08 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1320 циклов
+2026-03-29 09:34:08 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1330 циклов
+2026-03-29 09:37:38 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1340 циклов
+2026-03-29 09:41:08 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1350 циклов
+2026-03-29 09:44:08 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1360 циклов
+2026-03-29 09:47:38 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1370 циклов
+2026-03-29 09:51:08 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1380 циклов
+2026-03-29 09:54:08 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1390 циклов
+2026-03-29 09:57:38 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1400 циклов
+2026-03-29 10:01:08 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1410 циклов
+2026-03-29 10:04:08 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1420 циклов
+2026-03-29 10:07:38 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1430 циклов
+2026-03-29 10:11:08 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1440 циклов
+2026-03-29 10:14:08 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1450 циклов
+2026-03-29 10:17:39 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1460 циклов
+2026-03-29 10:21:09 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1470 циклов
+2026-03-29 10:24:09 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1480 циклов
+2026-03-29 10:27:39 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1490 циклов
+2026-03-29 10:31:09 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1500 циклов
+2026-03-29 10:34:09 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1510 циклов
+2026-03-29 10:37:39 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1520 циклов
+2026-03-29 10:41:09 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1530 циклов
+2026-03-29 10:44:09 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1540 циклов
+2026-03-29 10:47:39 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1550 циклов
+2026-03-29 10:51:09 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1560 циклов
+2026-03-29 10:54:09 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1570 циклов
+2026-03-29 10:57:39 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1580 циклов
+2026-03-29 11:01:09 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1590 циклов
+2026-03-29 11:04:09 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1600 циклов
+2026-03-29 11:07:39 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1610 циклов
+2026-03-29 11:11:10 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1620 циклов
+2026-03-29 11:14:10 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1630 циклов
+2026-03-29 11:17:40 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1640 циклов
+2026-03-29 11:21:10 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1650 циклов
+2026-03-29 11:24:10 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1660 циклов
+2026-03-29 11:27:40 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1670 циклов
+2026-03-29 11:31:10 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1680 циклов
+2026-03-29 11:34:10 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1690 циклов
+2026-03-29 11:37:40 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1700 циклов
+2026-03-29 11:41:10 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1710 циклов
+2026-03-29 11:44:10 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1720 циклов
+2026-03-29 11:47:40 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1730 циклов
+2026-03-29 11:51:10 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1740 циклов
+2026-03-29 11:54:10 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1750 циклов
+2026-03-29 11:57:40 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1760 циклов
+2026-03-29 12:01:11 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1770 циклов
+2026-03-29 12:04:11 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1780 циклов
+2026-03-29 12:07:41 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1790 циклов
+2026-03-29 12:11:11 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1800 циклов
+2026-03-29 12:14:11 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1810 циклов
+2026-03-29 12:17:41 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1820 циклов
+2026-03-29 12:21:11 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1830 циклов
+2026-03-29 12:24:11 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1840 циклов
+2026-03-29 12:27:41 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1850 циклов
+2026-03-29 12:31:11 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1860 циклов
+2026-03-29 12:34:11 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1870 циклов
+2026-03-29 12:37:41 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1880 циклов
+2026-03-29 12:41:11 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1890 циклов
+2026-03-29 12:44:11 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1900 циклов
+2026-03-29 12:47:41 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1910 циклов
+2026-03-29 12:51:12 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1920 циклов
+2026-03-29 12:54:12 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1930 циклов
+2026-03-29 12:57:42 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1940 циклов
+2026-03-29 13:01:12 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1950 циклов
+2026-03-29 13:04:12 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1960 циклов
+2026-03-29 13:07:42 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1970 циклов
+2026-03-29 13:11:12 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1980 циклов
+2026-03-29 13:14:12 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 1990 циклов
+2026-03-29 13:17:42 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2000 циклов
+2026-03-29 13:21:12 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2010 циклов
+2026-03-29 13:24:12 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2020 циклов
+2026-03-29 13:27:42 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2030 циклов
+2026-03-29 13:31:12 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2040 циклов
+2026-03-29 13:34:12 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2050 циклов
+2026-03-29 13:37:42 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2060 циклов
+2026-03-29 13:41:12 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2070 циклов
+2026-03-29 13:44:13 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2080 циклов
+2026-03-29 13:47:43 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2090 циклов
+2026-03-29 13:51:13 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2100 циклов
+2026-03-29 13:54:13 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2110 циклов
+2026-03-29 13:57:43 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2120 циклов
+2026-03-29 14:00:10 - MatrixRegBot - INFO - start_command:270 - 📱 /start от 1524172810
+2026-03-29 14:00:23 - MatrixRegBot - INFO - menu_register_callback:421 - 📱 Callback: menu_register от 1524172810
+2026-03-29 14:00:33 - MatrixRegBot - INFO - handle_username:536 - 📱 Логин от 1524172810: Chunga
+2026-03-29 14:00:49 - MatrixRegBot - INFO - registration_callback:825 - 📱 Registration: approve_1524172810_chunga
+2026-03-29 14:00:57 - MatrixRegBot - INFO - send_admin_command_async:221 - 📤 Команда Matrix: !admin users create @chunga:cloud.matrix.hiroshi-gaidao.ru 4fW2ONO5lqDiUUpS
+2026-03-29 14:00:57 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2130 циклов
+2026-03-29 14:00:57 - MatrixRegBot - INFO - send_admin_command_async:236 - ✅ Отправлено: $bosiO6zxE007nlMqmosXAwrR6NmAmFj87x7-AO5lXJE
+2026-03-29 14:03:57 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2140 циклов
+2026-03-29 14:07:27 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2150 циклов
+2026-03-29 14:10:27 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2160 циклов
+2026-03-29 14:13:57 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2170 циклов
+2026-03-29 14:17:27 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2180 циклов
+2026-03-29 14:20:27 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2190 циклов
+2026-03-29 14:23:02 - MatrixRegBot - INFO - admin_panel:592 - 📱 /admin от 1524172810
+2026-03-29 14:23:51 - MatrixRegBot - INFO - send_admin_command_async:221 - 📤 Команда Matrix: !admin users deactivate @chunga:cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 14:23:52 - MatrixRegBot - INFO - send_admin_command_async:236 - ✅ Отправлено: $QgALAdltgleKaDRkMmX-cf3FM-DqqQhr40h1DdtFXR4
+2026-03-29 14:23:52 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2200 циклов
+2026-03-29 14:26:52 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2210 циклов
+2026-03-29 14:29:52 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2220 циклов
+2026-03-29 14:33:22 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2230 циклов
+2026-03-29 14:36:52 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2240 циклов
+2026-03-29 14:39:52 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2250 циклов
+2026-03-29 14:43:22 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2260 циклов
+2026-03-29 14:46:52 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2270 циклов
+2026-03-29 14:49:52 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2280 циклов
+2026-03-29 14:53:22 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2290 циклов
+2026-03-29 14:56:52 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2300 циклов
+2026-03-29 14:59:52 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2310 циклов
+2026-03-29 15:03:22 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2320 циклов
+2026-03-29 15:06:52 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2330 циклов
+2026-03-29 15:09:52 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2340 циклов
+2026-03-29 15:13:22 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2350 циклов
+2026-03-29 15:16:52 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2360 циклов
+2026-03-29 15:19:52 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2370 циклов
+2026-03-29 15:23:22 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2380 циклов
+2026-03-29 15:26:53 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 2390 циклов
+2026-03-29 15:31:58 - MatrixRegBot - INFO - <module>:899 - ==================================================
+2026-03-29 15:31:58 - MatrixRegBot - INFO - <module>:900 - 🤖 Запуск бота...
+2026-03-29 15:31:58 - MatrixRegBot - INFO - <module>:901 - ==================================================
+2026-03-29 15:31:58 - MatrixRegBot - INFO - <module>:905 - 🔐 TG_BOT_TOKEN: [СКРЫТО]
+2026-03-29 15:31:58 - MatrixRegBot - INFO - <module>:907 - ⚙️ ADMIN_CHAT_ID: 1524172810
+2026-03-29 15:31:58 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_SERVER_URL: https://cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 15:31:58 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_DOMAIN: cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 15:31:58 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_BOT_USER: regbot
+2026-03-29 15:31:58 - MatrixRegBot - INFO - <module>:905 - 🔐 MATRIX_BOT_PASSWORD: [СКРЫТО]
+2026-03-29 15:31:58 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_ADMIN_ROOM_ID: !AN4C77yYxIkfpNKzwl:cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 15:31:58 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_STORE_PATH: /app/matrix_store
+2026-03-29 15:31:58 - MatrixRegBot - INFO - <module>:907 - ⚙️ DB_PATH: /app/data/bot_database.db
+2026-03-29 15:31:58 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_PATH: /app/logs
+2026-03-29 15:31:58 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_LEVEL: INFO
+2026-03-29 15:31:58 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_MAX_BYTES: 10485760
+2026-03-29 15:31:58 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_BACKUP_COUNT: 7
+2026-03-29 15:31:58 - MatrixRegBot - INFO - start_matrix_background:886 - 🔄 Запуск Matrix клиента...
+2026-03-29 15:31:58 - MatrixRegBot - INFO - init_matrix_client:180 - 🔄 Инициализация Matrix клиента...
+2026-03-29 15:31:58 - MatrixRegBot - INFO - init_matrix_client:198 - ✅ Matrix bot logged in: @regbot:cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 15:32:01 - MatrixRegBot - INFO - <module>:917 - 📱 Telegram bot polling started...
+2026-03-29 15:34:58 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 10 циклов
+2026-03-29 15:38:28 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 20 циклов
+2026-03-29 15:41:58 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 30 циклов
+2026-03-29 15:44:59 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 40 циклов
+2026-03-29 15:48:29 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 50 циклов
+2026-03-29 15:51:59 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 60 циклов
+2026-03-29 15:54:59 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 70 циклов
+2026-03-29 15:58:29 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 80 циклов
+2026-03-29 16:01:59 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 90 циклов
+2026-03-29 16:04:59 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 100 циклов
+2026-03-29 16:08:29 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 110 циклов
+2026-03-29 16:11:59 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 120 циклов
+2026-03-29 16:14:59 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 130 циклов
+2026-03-29 16:18:29 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 140 циклов
+2026-03-29 16:21:59 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 150 циклов
+2026-03-29 16:25:00 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 160 циклов
+2026-03-29 16:28:30 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 170 циклов
+2026-03-29 16:32:00 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 180 циклов
+2026-03-29 16:35:00 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 190 циклов
+2026-03-29 16:49:32 - MatrixRegBot - INFO - <module>:899 - ==================================================
+2026-03-29 16:49:32 - MatrixRegBot - INFO - <module>:900 - 🤖 Запуск бота...
+2026-03-29 16:49:32 - MatrixRegBot - INFO - <module>:901 - ==================================================
+2026-03-29 16:49:32 - MatrixRegBot - INFO - <module>:905 - 🔐 TG_BOT_TOKEN: [СКРЫТО]
+2026-03-29 16:49:32 - MatrixRegBot - INFO - <module>:907 - ⚙️ ADMIN_CHAT_ID: 1524172810
+2026-03-29 16:49:32 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_SERVER_URL: https://cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 16:49:32 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_DOMAIN: cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 16:49:32 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_BOT_USER: regbot
+2026-03-29 16:49:32 - MatrixRegBot - INFO - <module>:905 - 🔐 MATRIX_BOT_PASSWORD: [СКРЫТО]
+2026-03-29 16:49:32 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_ADMIN_ROOM_ID: !AN4C77yYxIkfpNKzwl:cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 16:49:32 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_STORE_PATH: /app/matrix_store
+2026-03-29 16:49:32 - MatrixRegBot - INFO - <module>:907 - ⚙️ DB_PATH: /app/data/bot_database.db
+2026-03-29 16:49:32 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_PATH: /app/logs
+2026-03-29 16:49:32 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_LEVEL: INFO
+2026-03-29 16:49:32 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_MAX_BYTES: 10485760
+2026-03-29 16:49:32 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_BACKUP_COUNT: 7
+2026-03-29 16:49:32 - MatrixRegBot - INFO - start_matrix_background:886 - 🔄 Запуск Matrix клиента...
+2026-03-29 16:49:32 - MatrixRegBot - INFO - init_matrix_client:180 - 🔄 Инициализация Matrix клиента...
+2026-03-29 16:49:32 - MatrixRegBot - INFO - init_matrix_client:198 - ✅ Matrix bot logged in: @regbot:cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 16:49:35 - MatrixRegBot - INFO - <module>:917 - 📱 Telegram bot polling started...
+2026-03-29 16:49:35 - MatrixRegBot - INFO - admin_panel:592 - 📱 /admin от 1524172810
+2026-03-29 16:49:49 - MatrixRegBot - INFO - admin_panel:592 - 📱 /admin от 1524172810
+2026-03-29 16:52:32 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 10 циклов
+2026-03-29 16:56:02 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 20 циклов
+2026-03-29 16:59:32 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 30 циклов
+2026-03-29 17:02:24 - MatrixRegBot - INFO - start_command:270 - 📱 /start от 495450925
+2026-03-29 17:02:26 - MatrixRegBot - INFO - menu_register_callback:421 - 📱 Callback: menu_register от 495450925
+2026-03-29 17:02:32 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 40 циклов
+2026-03-29 17:02:36 - MatrixRegBot - INFO - menu_main_callback:393 - 📱 Callback: menu_main от 495450925
+2026-03-29 17:02:42 - MatrixRegBot - INFO - handle_username:536 - 📱 Логин от 495450925: akot
+2026-03-29 17:02:53 - MatrixRegBot - INFO - registration_callback:825 - 📱 Registration: approve_495450925_akot
+2026-03-29 17:03:02 - MatrixRegBot - INFO - send_admin_command_async:221 - 📤 Команда Matrix: !admin users create @akot:cloud.matrix.hiroshi-gaidao.ru mpW*vpXipjH$9RRM
+2026-03-29 17:03:02 - MatrixRegBot - INFO - send_admin_command_async:236 - ✅ Отправлено: $QvQ-r7ZE2ULKwewptPRshMUcvN3akiSCKUlIgiEMShg
+2026-03-29 17:05:59 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 50 циклов
+2026-03-29 17:09:29 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 60 циклов
+2026-03-29 17:12:29 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 70 циклов
+2026-03-29 17:15:59 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 80 циклов
+2026-03-29 17:19:29 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 90 циклов
+2026-03-29 17:22:29 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 100 циклов
+2026-03-29 17:25:59 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 110 циклов
+2026-03-29 17:29:30 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 120 циклов
+2026-03-29 17:32:30 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 130 циклов
+2026-03-29 17:36:00 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 140 циклов
+2026-03-29 17:39:30 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 150 циклов
+2026-03-29 17:42:30 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 160 циклов
+2026-03-29 17:46:00 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 170 циклов
+2026-03-29 17:49:30 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 180 циклов
+2026-03-29 17:52:30 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 190 циклов
+2026-03-29 17:56:00 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 200 циклов
+2026-03-29 17:59:30 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 210 циклов
+2026-03-29 18:02:30 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 220 циклов
+2026-03-29 18:06:00 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 230 циклов
+2026-03-29 18:09:30 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 240 циклов
+2026-03-29 18:12:30 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 250 циклов
+2026-03-29 18:16:00 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 260 циклов
+2026-03-29 18:19:30 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 270 циклов
+2026-03-29 18:22:30 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 280 циклов
+2026-03-29 18:26:01 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 290 циклов
+2026-03-29 18:29:31 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 300 циклов
+2026-03-29 18:32:31 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 310 циклов
+2026-03-29 18:36:01 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 320 циклов
+2026-03-29 18:39:31 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 330 циклов
+2026-03-29 18:42:31 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 340 циклов
+2026-03-29 18:46:01 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 350 циклов
+2026-03-29 18:49:31 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 360 циклов
+2026-03-29 18:52:31 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 370 циклов
+2026-03-29 18:56:01 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 380 циклов
+2026-03-29 18:59:31 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 390 циклов
+2026-03-29 19:02:31 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 400 циклов
+2026-03-29 19:06:01 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 410 циклов
+2026-03-29 19:09:31 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 420 циклов
+2026-03-29 19:12:31 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 430 циклов
+2026-03-29 19:16:01 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 440 циклов
+2026-03-29 19:19:31 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 450 циклов
+2026-03-29 19:22:31 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 460 циклов
+2026-03-29 19:26:02 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 470 циклов
+2026-03-29 19:29:32 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 480 циклов
+2026-03-29 19:32:32 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 490 циклов
+2026-03-29 19:36:02 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 500 циклов
+2026-03-29 19:39:32 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 510 циклов
+2026-03-29 19:42:32 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 520 циклов
+2026-03-29 19:46:02 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 530 циклов
+2026-03-29 19:49:32 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 540 циклов
+2026-03-29 19:52:32 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 550 циклов
+2026-03-29 19:56:02 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 560 циклов
+2026-03-29 19:59:32 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 570 циклов
+2026-03-29 20:02:32 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 580 циклов
+2026-03-29 20:06:02 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 590 циклов
+2026-03-29 20:09:32 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 600 циклов
+2026-03-29 20:12:32 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 610 циклов
+2026-03-29 20:16:02 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 620 циклов
+2026-03-29 20:19:32 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 630 циклов
+2026-03-29 20:22:32 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 640 циклов
+2026-03-29 20:26:02 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 650 циклов
+2026-03-29 20:29:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 660 циклов
+2026-03-29 20:32:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 670 циклов
+2026-03-29 20:36:03 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 680 циклов
+2026-03-29 20:39:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 690 циклов
+2026-03-29 20:42:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 700 циклов
+2026-03-29 20:46:03 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 710 циклов
+2026-03-29 20:49:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 720 циклов
+2026-03-29 20:52:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 730 циклов
+2026-03-29 20:56:03 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 740 циклов
+2026-03-29 20:59:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 750 циклов
+2026-03-29 21:02:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 760 циклов
+2026-03-29 21:06:03 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 770 циклов
+2026-03-29 21:09:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 780 циклов
+2026-03-29 21:12:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 790 циклов
+2026-03-29 21:16:03 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 800 циклов
+2026-03-29 21:19:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 810 циклов
+2026-03-29 21:22:33 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 820 циклов
+2026-03-29 21:26:04 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 830 циклов
+2026-03-29 21:29:34 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 840 циклов
+2026-03-29 21:32:34 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 850 циклов
+2026-03-29 21:36:04 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 860 циклов
+2026-03-29 21:39:34 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 870 циклов
+2026-03-29 21:42:34 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 880 циклов
+2026-03-29 21:46:04 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 890 циклов
+2026-03-29 21:49:34 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 900 циклов
+2026-03-29 21:52:34 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 910 циклов
+2026-03-29 21:56:04 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 920 циклов
+2026-03-29 21:59:34 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 930 циклов
+2026-03-29 22:02:34 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 940 циклов
+2026-03-29 22:06:04 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 950 циклов
+2026-03-29 22:09:49 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 960 циклов
+2026-03-29 22:13:13 - MatrixRegBot - INFO - <module>:899 - ==================================================
+2026-03-29 22:13:13 - MatrixRegBot - INFO - <module>:900 - 🤖 Запуск бота...
+2026-03-29 22:13:13 - MatrixRegBot - INFO - <module>:901 - ==================================================
+2026-03-29 22:13:13 - MatrixRegBot - INFO - <module>:905 - 🔐 TG_BOT_TOKEN: [СКРЫТО]
+2026-03-29 22:13:13 - MatrixRegBot - INFO - <module>:907 - ⚙️ ADMIN_CHAT_ID: 1524172810
+2026-03-29 22:13:13 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_SERVER_URL: https://cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 22:13:13 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_DOMAIN: cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 22:13:13 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_BOT_USER: regbot
+2026-03-29 22:13:13 - MatrixRegBot - INFO - <module>:905 - 🔐 MATRIX_BOT_PASSWORD: [СКРЫТО]
+2026-03-29 22:13:13 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_ADMIN_ROOM_ID: !AN4C77yYxIkfpNKzwl:cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 22:13:13 - MatrixRegBot - INFO - <module>:907 - ⚙️ MATRIX_STORE_PATH: /app/matrix_store
+2026-03-29 22:13:13 - MatrixRegBot - INFO - <module>:907 - ⚙️ DB_PATH: /app/data/bot_database.db
+2026-03-29 22:13:13 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_PATH: /app/logs
+2026-03-29 22:13:13 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_LEVEL: INFO
+2026-03-29 22:13:13 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_MAX_BYTES: 10485760
+2026-03-29 22:13:13 - MatrixRegBot - INFO - <module>:907 - ⚙️ LOG_BACKUP_COUNT: 7
+2026-03-29 22:13:13 - MatrixRegBot - INFO - start_matrix_background:886 - 🔄 Запуск Matrix клиента...
+2026-03-29 22:13:13 - MatrixRegBot - INFO - init_matrix_client:180 - 🔄 Инициализация Matrix клиента...
+2026-03-29 22:13:13 - MatrixRegBot - INFO - init_matrix_client:198 - ✅ Matrix bot logged in: @regbot:cloud.matrix.hiroshi-gaidao.ru
+2026-03-29 22:13:16 - MatrixRegBot - INFO - <module>:917 - 📱 Telegram bot polling started...
+2026-03-29 22:16:14 - MatrixRegBot - INFO - matrix_sync_loop:215 - 📊 Sync: 10 циклов
